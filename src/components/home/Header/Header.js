@@ -67,11 +67,9 @@ const Header = () => {
                   className="w-[80%] h-full relative"
                 >
                   <div className="w-full h-full bg-primeColor p-6">
-                    <img
-                      className="w-28 mb-6"
-                      src={logoLight}
-                      alt="logoLight"
-                    />
+                    
+                   <h1 className="text-2xl font-bold text-white mb-6">VIJAY SHOPPING</h1>
+
                     <ul className="text-gray-200 flex flex-col gap-2">
                       {navBarList.map((item) => (
                         <li
